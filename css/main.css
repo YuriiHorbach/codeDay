@@ -1,34 +1,4 @@
-секлетор {
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-}
-
-секлетор {
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-}
-
-секлетор {
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-}
-
-секлетор {
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-	свойство: значение;
-}
+/*@import url(reset.css);*/
 
 
 body {
@@ -39,7 +9,7 @@ body {
 
 }
 
-div, p, input, button {
+div, p, input, button a{
 	box-sizing: border-box;
 }
 
@@ -151,6 +121,8 @@ article {
 	font-weight: 700;
 }
 
+
+
 .icon1{
 	background: url(../img/process.png) no-repeat center top;
 	padding-top: 170px;
@@ -171,4 +143,46 @@ article {
 	right: 0;
 	top:50%;
 	margin-top: -106px;
+}
+
+
+.basics{
+	position: absolute;
+	bottom: 17vh;
+	left: 0;
+	width: 100%;
+}
+
+.skills i{
+	margin-left: 24px;
+}
+
+.skills i:nth-child(1){
+	margin-left: 0;
+}
+
+.white{
+	color: #ffffff;
+}
+
+
+.button {
+	background: #cf3f3f;
+	border-radius: 5px 5px 0px 0px;
+	padding: 22px 30px 15px 30px;
+	position: absolute;
+	bottom: 0vh;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	text-decoration: none;
+}
+
+.button i{
+	display: block;
+}
+
+#button{
+	color: #fff;
+	text-decoration: none;
 }
