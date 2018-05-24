@@ -1,4 +1,4 @@
-/*@import url(reset.css);*/
+@import url(reset.css);
 
 
 body {
@@ -185,4 +185,19 @@ article {
 #button{
 	color: #fff;
 	text-decoration: none;
+}
+
+h2{
+	background: url(../img/ball.png) no-repeat;
+	font-size: 33px;
+	font-weight: bold;
+	padding: 0
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 61px;
+	margin-top: 0;
+}
+
+#program{
+	background: url(../img/bage_bg.jpg) repeat;
 }
