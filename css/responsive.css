@@ -1,1 +1,16 @@
-@media screen and(max-width: 1024px);
+@media screen and (max-width: 1024px) {
+	article{
+		width: 90%;
+	}
+
+	.icon1, .icon2{
+		display: none;
+	}
+
+	.one{
+		float: none;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+} 
