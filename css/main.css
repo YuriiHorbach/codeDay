@@ -1,6 +1,5 @@
 @import url(reset.css);
 
-
 body {
 	padding: 0px;
 	margin: 0px;
@@ -9,7 +8,7 @@ body {
 
 }
 
-div, p, input, button a{
+div, p, input, button, a{
 	box-sizing: border-box;
 }
 
@@ -99,6 +98,8 @@ article {
 	background: #e1de99 url(../img/first_bg.jpg) no-repeat center center / cover;
 	height: 100vh;
 	position: relative;
+	box-shadow: 12px 10px 40px #00000069;
+
 }
 
 #first article{
@@ -120,8 +121,6 @@ article {
 .bold {
 	font-weight: 700;
 }
-
-
 
 .icon1{
 	background: url(../img/process.png) no-repeat center top;
@@ -145,26 +144,32 @@ article {
 	margin-top: -106px;
 }
 
+.white{
+	color: #fff;
+}
 
-.basics{
+.white {
+	color: #fff;
+}
+
+.basics {
 	position: absolute;
-	bottom: 17vh;
-	left: 0;
+	bottom: 15vh;
+	left: 0px;
 	width: 100%;
 }
 
-.skills i{
+.title {
+	margin-bottom: 10px;
+}
+
+.skills i {
 	margin-left: 24px;
 }
 
-.skills i:nth-child(1){
-	margin-left: 0;
+.skills i:nth-child(1) {
+	margin-left: 0px;
 }
-
-.white{
-	color: #ffffff;
-}
-
 
 .button {
 	background: #cf3f3f;
@@ -178,26 +183,108 @@ article {
 	text-decoration: none;
 }
 
-.button i{
+.button i {
 	display: block;
 }
 
-#button{
-	color: #fff;
-	text-decoration: none;
+.lefter{
+	float: left;
+}
+
+.righter{
+	float: right;
 }
 
 h2{
-	background: url(../img/ball.png) no-repeat;
-	font-size: 33px;
+	font-size: 35px;
 	font-weight: bold;
-	padding: 0
+	padding: 0;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 61px;
-	margin-top: 0;
+	padding-top: 58PX;
+	background: url(../img/ball.png) no-repeat center top;
+	text-transform: uppercase;
+	color: #e7e4bb;
+	
+
+}
+
+.icons{
+	overflow: hidden;
+	margin-top: 20px;
+
 }
 
 #program{
 	background: url(../img/bage_bg.jpg) repeat;
+	padding-top: 60px;
+	color: #e7e4bb;
+	padding-bottom: 65px;
+}
+
+.one{
+	width:290px;
+	background: url(../img/icon1.png) no-repeat center top;
+	padding-top: 141px;
+	margin-right: 98px;
+	margin-left: 52px;
+
+}
+
+.icons .one:nth-child(2){
+	background: url(../img/icon2.png) no-repeat center top;
+	margin-right: 80px;
+	margin-left: 0;
+}
+
+.icons .one:nth-child(3){
+	background: url(../img/icon3.png) no-repeat center top;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+#red {
+	background: url(../img/red_bg.jpg) repeat;
+	color: #e7e4bb;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+.explain {
+	width: 540px;
+	margin-top: 10px;
+	line-height: 1.5em
+}
+
+#red h2 {
+	margin-bottom: 20px;
+}
+
+.cell{
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #dd9e87;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	width: 252px;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+.act {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #e7e4bb;
+    background-color: transparent;
+    color: #e7e4bb;
+    padding: 13px 30px;
+}
+
+form{
+	margin: 40px auto;
 }
